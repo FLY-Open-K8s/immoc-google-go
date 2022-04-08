@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 全局变量
+// 包内部的全局变量
 var (
 	str     = "hello world!"
 	packInt = 1
