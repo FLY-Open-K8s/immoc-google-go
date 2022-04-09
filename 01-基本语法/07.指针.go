@@ -7,6 +7,7 @@ func swap(a, b int) {
 }
 
 func swapPoniter(a, b *int) {
+	// 如果要交换它们的值，使用指针
 	*b, *a = *a, *b
 }
 

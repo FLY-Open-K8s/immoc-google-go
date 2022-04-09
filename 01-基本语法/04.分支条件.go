@@ -11,7 +11,7 @@ import (
 func getSocreReult(score int) string {
 	result := ""
 	switch {
-	//switch后可以没有表达式，默认自动加了brea，否则需要fallthrough
+	//switch后可以没有表达式，默认自动加了break，否则需要fallthrough
 	case score < 0 || score > 100:
 		result = "数字范围错误"
 	case score < 60:

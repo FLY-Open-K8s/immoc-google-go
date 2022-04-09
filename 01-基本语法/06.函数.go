@@ -18,7 +18,9 @@ func div(a, b int) (q, r int, err error) {
 
 // 函数式编程
 func apply(opFunc func(int, int) int, a, b int) int {
+	// 获取函数的指针
 	p := reflect.ValueOf(opFunc).Pointer()
+	// 获取函数的名字
 	opFuncName := runtime.FuncForPC(p).Name()
 	fmt.Printf("calling %s with args : %d, %d\n", opFuncName, a, b)
 	return opFunc(a, b)
