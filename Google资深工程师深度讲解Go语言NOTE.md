@@ -432,11 +432,11 @@ for i := 1; i <= 100; i++ {
 
 值传递？引用传递？
 
-![image-20220409080401059](C:\Users\FLY\AppData\Roaming\Typora\typora-user-images\image-20220409080401059.png)
+![image-20220409080330770](https://cdn.jsdelivr.net/gh/Fly0905/note-picture@main/img/202204091045743.png)
 
-![image-20220409080330770](C:\Users\FLY\AppData\Roaming\Typora\typora-user-images\image-20220409080330770.png)
+![image-20220409080401059](https://cdn.jsdelivr.net/gh/Fly0905/note-picture@main/img/202204091045563.png)
 
-![image-20220409080538144](C:\Users\FLY\AppData\Roaming\Typora\typora-user-images\image-20220409080538144.png)
+![image-20220409080538144](https://cdn.jsdelivr.net/gh/Fly0905/note-picture@main/img/202204091045512.png)
 
 - Go 语言只有值传递一种方式
 
